@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -8,6 +9,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>WebDevProject</name>
     <description>Web development project for Spring Boot</description>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hellokoding.springboot</groupId>
+    <artifactId>springboot-registration-login</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+>>>>>>> 0d3102b3a447cb87a57f254e5606ea6e8a70c4b3
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,7 +31,10 @@
     </properties>
 
     <dependencies>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d3102b3a447cb87a57f254e5606ea6e8a70c4b3
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -60,7 +73,10 @@
             <artifactId>jstl</artifactId>
         </dependency>
     </dependencies>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d3102b3a447cb87a57f254e5606ea6e8a70c4b3
     <build>
         <plugins>
             <plugin>
@@ -69,5 +85,9 @@
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
 
 </project>
+=======
+</project>
+>>>>>>> 0d3102b3a447cb87a57f254e5606ea6e8a70c4b3
